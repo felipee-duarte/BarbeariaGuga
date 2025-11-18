@@ -22,7 +22,7 @@
     <section class="home-page" id="home">
       <header class="header" id="header">
         <div class="logo">
-          <img src="imagens/logoBarber.png" alt="DevBarber Logo" />
+          <img src="imagens/logoGugaSF.png" alt="DevBarber Logo" />
         </div>
         <label class="hamburger">
           <input type="checkbox" id="checkbox" />
@@ -58,20 +58,20 @@
     <main>
       <!--SOBRE-->
       <section class="sobre" id="sobre">
-        <img id="faixada" src="imagens/devfaixaP.jpg" alt="" />
+        <img id="faixada" src="imagens/faixadaCEl.jpg" alt="" />
         <div class="home-dev">
           <div class="txt-sobre">
-            <p>Sobre Nós</p>
-            <h1>Dev Barber</h1>
+            <p>Sobre nós</p>
+            <h1>Guga Barbearia</h1>
           </div>
           <div class="barra"></div>
         </div>
 
         <p class="txt">
-          Na Dev Barber, cada detalhe é pensado para você viver mais do que um
+          Na Barbearia do Guga, cada detalhe é pensado para você viver mais do que um
           corte é estilo, cuidado e personalidade. Aqui tradição e modernidade
           se encontram, trazendo técnicas atuais, atendimento de qualidade e um
-          ambiente feito pra você se sentir em casa. Dev Barber — onde sua
+          ambiente feito pra você se sentir em casa. Guga Barbearia onde sua
           confiança ganha forma.
         </p>
 
@@ -79,9 +79,10 @@
 
         <div class="carrossel">
           <div class="slides">
-            <img src="imagens/Psobre1.png" alt="Descrição Imagem 1" />
-            <img src="imagens/Psobre2.png" alt="Descrição Imagem 2" />
-            <img src="imagens/Psobre3.png" alt="Descrição Imagem 3" />
+            <img src="imagens/cabelo1.png" alt="Descrição Imagem 1" />
+            <img src="imagens/cabelo4.png" alt="Descrição Imagem 2" />
+            <img src="imagens/cabelo2.png" alt="Descrição Imagem 3" />
+            <img src="imagens/cabelo3.png" alt="Descrição Imagem 3" />
           </div>
         </div>
       </section>
@@ -126,7 +127,7 @@
         <a href="#agenda"><button class="btn">AGENDE UM HORÁRIO</button></a>
         <img
           id="minhaImagem"
-          src="imagens/img-barba02.jpg"
+          src="imagens/"
           class="destaque"
           alt=""
         />
@@ -205,7 +206,7 @@
       </section>
       <iframe
         class="google-maps"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58949.65591133559!2d-47.92116395!3d-22.565878549999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7baaa4b173567%3A0x39afa382f33b9f00!2sS%C3%A3o%20Pedro%2C%20SP%2C%2013520-000!5e0!3m2!1spt-BR!2sbr!4v1759509283189!5m2!1spt-BR!2sbr"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1842.3051878355864!2d-47.908920049667366!3d-22.556263615917075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7b1125fc194d3%3A0x9f6e05e8e92c004f!2sGuga%20barbearia!5e0!3m2!1spt-BR!2sbr!4v1763436709685!5m2!1spt-BR!2sbr"
         width="400"
         height="300"
         style="border: 0"
@@ -214,17 +215,16 @@
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
       <section class="footer">
-        <img src="imagens/logoBarber.png" alt="logo da Barbearia" />
+        <img src="imagens/logoGugaSF.png" alt="logo da Barbearia" />
 
         <div class="linha"></div>
         <h2>Contato</h2>
-        <p>(xx) xxxxx-xxxx</p>
-        <p>(xx) xxxxx-xxxx</p>
+        <p>(19) 99681-8430</p>
 
         <div class="linha"></div>
         <h2>Localização</h2>
-        <p>Rua dos barbeiros, Barber Dev / São Pedro-SP</p>
-        <p>Barbearia@Dev.com.br</p>
+        <p>Av. Pres. Getulio vargas, 1381/ São Pedro-SP</p>
+        <!--<p>Barbearia@Dev.com.br</p>-->
       </section>
 
       <div class="direitos">
@@ -271,11 +271,8 @@
       alert(result.message || "Agendamento criado com sucesso!");
       form.reset();
 
-
-
-      // aguarda 1 segundo após o alerta, depois abre o WhatsApp
       setTimeout(() => {
-        window.open(urlWhatsApp, "_blank"); // abre em nova aba
+        window.open(urlWhatsApp, "_blank"); 
       }, 1000);
     } catch (err) {
       alert("Erro ao enviar o agendamento 😢");
@@ -283,8 +280,6 @@
     }
   });
 </script>
-
-    <!-- From Uiverse.io by abrahamcalsin -->
     <div id="loadingScreen">
       <div class="dot-spinner">
         <div class="dot-spinner__dot"></div>

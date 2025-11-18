@@ -10,7 +10,6 @@
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
-/* Estilos da página principal */
 body {
   margin: 0;
   position: relative;
@@ -27,7 +26,7 @@ body {
 /*HOME*/
 .home-page {
   background: black;
-  background-image: url("../imagens/fundo-home.png");
+  background-image: url("../imagens/faixada.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -52,7 +51,8 @@ body {
 
 .logo img {
   margin: 30px 20px;
-  width: 150px; /* Ajuste o tamanho do logo conforme necessário */
+  width: 150px; 
+  filter: drop-shadow(10px 5px 5px black);
 }
 
 .hero-section {
@@ -238,9 +238,9 @@ div.txt-animado {
 }
 
 .hamburger {
-  position: absolute; /* fica sempre fixo na tela */
-  top: 95px; /* distância do topo */
-  right: 30px; /* distância da direita */
+  position: absolute; 
+  top: 95px; 
+  right: 30px; 
   z-index: 9999;
   cursor: pointer;
 }
@@ -250,9 +250,7 @@ div.txt-animado {
 }
 
 .hamburger svg {
-  /* The size of the SVG defines the overall size */
   height: 3em;
-  /* Define the transition for transforming the SVG */
   transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -262,7 +260,6 @@ div.txt-animado {
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 3;
-  /* Define the transition for transforming the Stroke */
   transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
     stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -369,7 +366,6 @@ div.txt-animado {
 }
 
 .carrossel {
-    /* Ocupa 100% da largura da tela */
     width: 100vw; 
     margin-top: 20px;
     overflow: hidden;
@@ -528,7 +524,6 @@ div.txt-animado {
   gap: 15px;
 }
 
-/* Título */
 #bookingForm h2 {
   text-align: center;
   margin-bottom: 10px;
@@ -536,7 +531,6 @@ div.txt-animado {
   color: white;
 }
 
-/* Labels e inputs */
 #bookingForm label {
   display: flex;
   flex-direction: column;
@@ -552,14 +546,12 @@ div.txt-animado {
   transition: border 0.3s, box-shadow 0.3s;
 }
 
-/* Efeito ao focar no campo */
 #bookingForm input:focus,
 #bookingForm select:focus {
   border-color: #0077ff;
   box-shadow: 0 0 6px rgba(0, 119, 255, 0.4);
 }
 
-/* Botão */
 #bookingForm button {
   background: #0077ff;
   color: #fff;
@@ -571,7 +563,6 @@ div.txt-animado {
   transition: background 0.3s, transform 0.2s;
 }
 
-/* Hover do botão */
 #bookingForm button:hover {
   background: #123f68;
   box-shadow: 0 0 15px #ad0000;
@@ -613,6 +604,7 @@ div.txt-animado {
   align-items: center;
   margin: auto;
   width: 120px;
+  filter: drop-shadow(10px 5px 10px black);
 }
 
 .footer .linha {
@@ -691,17 +683,14 @@ div.txt-animado {
   transition: 0.3s ease;
 }
 
-/* mantenha suas regras .button normais; abaixo só cuida da entrada/saída */
 #whatsappButton {
   transition: opacity 0.38s ease, transform 0.38s ease;
   will-change: opacity, transform;
-  /* já fica oculto por causa do inline style; essas linhas só reforçam se quiser remover o inline */
   opacity: 0;
   pointer-events: none;
   transform: translateY(30px);
 }
 
-/* classe que o JS adiciona quando deve aparecer */
 #whatsappButton.show {
   opacity: 1;
   transform: translateY(0);

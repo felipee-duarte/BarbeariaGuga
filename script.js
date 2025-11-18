@@ -67,7 +67,7 @@ function trocarImg() {
     const larguraTela = window.innerWidth;
 
     if (larguraTela < 768) {
-      imagem.src = 'imagens/Servico-P.png'; // celular
+      imagem.src = 'imagens/guga3 1.png'; // celular
     } else if (larguraTela < 1200) {
       imagem.src = 'imagens/Servico-M.png'; // tablet
     } else {
