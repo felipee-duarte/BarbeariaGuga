@@ -51,17 +51,32 @@
   height: 70px;
 }
 
-.serviços .txt-p {
+.produtos .txt-p {
   font-size: 1.25em;
   width: 500px;
 }
 
-.serviços img {
+.produtos img {
   height: 300px;
   object-fit: cover;
 }
 
-.serviços .btn {
+.produtos .btn {
+  width: 200px;
+  height: 70px;
+}
+
+.produtos .txt-p {
+  font-size: 1.25em;
+  width: 500px;
+}
+
+.produtos img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.produtos .btn {
   width: 200px;
   height: 70px;
 }
@@ -153,6 +168,26 @@
 }
 
 .serviços .btn {
+  width: 250px;
+  height: 70px;
+}
+
+.produtos {
+ margin-bottom: 100px;
+ background: var(--fundo-serviço) no-repeat center center / cover;
+}
+
+.produtos .txt-p {
+  font-size: 1.5em;
+  width: 500px;
+}
+
+.produtos img {
+  height: 350px;
+  object-fit: cover;
+}
+
+.produtos .btn {
   width: 250px;
   height: 70px;
 }
@@ -285,6 +320,38 @@
 }
 
 .serviços .img-card {
+  max-width: 200px;
+  margin: 5px;
+}
+
+.produtos {
+ margin-bottom: 100px; 
+}
+
+.produtos p {
+  width: 90%;
+}
+
+.produtos .txt-p {
+  font-size: 1.5em;
+  width: 500px;
+}
+
+.produtos img {
+  height: 350px;
+  object-fit: cover;
+}
+
+.produtos .btn {
+  width: 250px;
+  height: 70px;
+}
+
+.produtos .cards {
+  max-width: 400px;
+}
+
+.produtos .img-card {
   max-width: 200px;
   margin: 5px;
 }
