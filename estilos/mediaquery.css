@@ -104,10 +104,12 @@
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   :root {
+    --faixada: url(../imagens/faixada2.png);
     --fundo-serviço: url(../imagens/servicos.png);
   }
   /*DESKTOP*/
   .home-page {
+    background: var(--faixada);
     margin-bottom: 100px;
   }
 
@@ -233,12 +235,13 @@
 
 @media screen and (min-width: 1200px) {
   :root {
+    --faixada: url(../imagens/faixada2.png);
     --fundo-serviço: url(../imagens/fundo-homeG.png);
   }
   /*TELAS GRANDES*/
   .home-page {
     margin-bottom: 100px;
-
+    background-image: var(--faixada);
   }
 
   .logo img {
